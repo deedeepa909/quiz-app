@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master Pro</title>
+
+```
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+```
+
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+```
+<div class="dashboard">
+
+    <div class="header">
+
+        <h1>🎯 Quiz Master Pro</h1>
+
+        <p class="subtitle">
+            Challenge Yourself & Track Your Progress
+        </p>
+
+        <button id="theme-toggle">
+            🌙 Toggle Theme
+        </button>
+
+    </div>
+
+    <div class="player-section">
+
+        <input
+            type="text"
+            id="player-name"
+            placeholder="Enter Your Name"
+        >
+
+    </div>
+
+    <div class="settings">
+
+        <div class="setting-box">
+
+            <label>📚 Category</label>
+
+            <select id="category">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+
+        </div>
+
+        <div class="setting-box">
+
+            <label>🏆 Difficulty</label>
+
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+        </div>
+
+        <button id="start-btn">
+            Start Quiz 🚀
+        </button>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="card">
+            <h3>🏅 High Score</h3>
+            <span id="high-score">0</span>
+        </div>
+
+        <div class="card">
+            <h3>⏱ Timer</h3>
+            <span id="timer">20</span>
+        </div>
+
+        <div class="card">
+            <h3>📈 Progress</h3>
+            <span id="progress-text">0%</span>
+        </div>
+
+    </div>
+
+    <div class="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <div id="quiz-box" class="hidden">
+
+        <h2 id="question">
+            Question Appears Here
+        </h2>
+
+        <div id="answer-buttons"></div>
+
+        <button id="next-btn">
+            Next Question ➜
+        </button>
+
+    </div>
+
+    <div id="result-box" class="hidden">
+
+        <h2>🎉 Quiz Completed!</h2>
+
+        <p id="score-text"></p>
+
+        <button id="restart-btn">
+            Play Again
+        </button>
+
+    </div>
+
+    <div class="leaderboard">
+
+        <h2>🏆 Leaderboard</h2>
+
+        <ul id="leaderboard-list"></ul>
+
+    </div>
+
+</div>
+```
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
