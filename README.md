@@ -1,14 +1,25 @@
-# Quiz App
+# Quiz Master Pro
 
-A responsive Quiz Application built using HTML, CSS, and JavaScript.
+A modern quiz application built using HTML, CSS, and JavaScript.
 
 ## Features
-- Multiple-choice questions
-- Score calculation
-- Restart quiz
-- Responsive design
+
+- Glassmorphism UI
+- Dark / Light Mode
+- Multiple Categories
+- Difficulty Levels
+- Timer System
+- Local Leaderboard
+- High Score Tracking
+- Confetti Celebration
 
 ## Technologies Used
-- HTML
-- CSS
-- JavaScript# quiz-app
+
+- HTML5
+- CSS3
+- JavaScript
+- Local Storage
+
+## Author
+
+Deepa
